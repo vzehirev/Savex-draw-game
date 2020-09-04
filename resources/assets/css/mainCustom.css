@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Russo+One&subset=cyrillic,latin-ext');
+
+* {
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+    /* white-space: nowrap;*/
+}
+
+body {
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+
+.steponedesktop{
+    display: none;
+}
+
+.steptwodesktop{
+    display: none;
+}
+
+.logodesktop{
+    display: none;
+}
+
+.containerhome {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.section-home {
+    background-image: url(../images/mobile_BG.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+    background-clip: content-box;
+}
+
+.logo {
+    width: 90%;
+}
+
+.logocontainer {
+    text-align: center;
+}
+
+.prizecontainer {
+    text-align: center;
+}
+
+.fourhundred {
+    width: 100%;
+
+}
+
+.badgecontainer {
+    padding-top: 32%;
+    text-align: right;
+}
+
+.badge {
+    width: 35%;
+}
+
+.prizecontainer h2 {
+    color: #2b3072;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+/* СКРОЛ */
+
+.scroll-downs {
+
+    top: 95%;
+    right: 55%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 34px;
+    height: 55px;
+}
+
+.mousey {
+    width: 3px;
+    padding: 2px 5px;
+    height: 20px;
+    border: 2px solid #2b3072;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #2b3072;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
+
+.fab {
+    font-size: 20px;
+}
+
+.savexicon {
+    width: 50px;
+}
+
+/* СКРОЛ */
+
+
+
+.section-steps {
+    background-image: url(../images/bg2.png);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    background-clip: content-box;
+    height: auto;
+}
+
+.steponecontainer {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.stepone {
+    width: 85%;
+}
+
+
+.preparaticontainer {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.preparati {
+    width: 85%;
+}
+
+.steptwocontainer {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.steptwo {
+    width: 85%;
+    padding-bottom: 40px;
+}
+
+
+
+/* SECTION REGISTERBOX */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-register {
+    background-color: #101562;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 13px;
+    margin: 5px 0 8px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+
+
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    margin: 0 auto;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    background-color: #e2211c;
+    color: white;
+    padding: 16px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.registerbtn:hover {
+    opacity: 5;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.registerbox h1 {
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.cb {
+    color: white;
+
+    font-size: 11px;
+}
+
+.choose_file {
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    border: #ebebeb solid 1px;
+    width: 100%;
+    padding: 15px 5px 15px 10px;
+    font: normal 13px Myriad Pro, Verdana, Geneva, sans-serif;
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    background: #ccdeff;
+}
+
+.choose_file input[type="file"] {
+    -webkit-appearance: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+
+/* FOOOOOOOTTTTTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRR */
+
+
+.section-footer {
+    background-image: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow-y: hidden;
+    height: auto;
+    background-clip: padding-box;
+
+    background-position: center;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ul {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #e2211c;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.lamps {
+    width: 100%;
+}
+
+.content h2 {
+    margin-top: 20px;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 10px;
+}
+
+i {
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    color: #919191;
+    font-weight: normal;
+}
+
+
+.greenbackground {
+    width: 100%;
+    height: auto;
+    Background-color: #00baee;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.greenbackground p {
+    margin: 0;
+}
+
+.greenbackground h1 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+
+.icons {
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    color: #111C4E;
+}
+
+.prize_desktop {
+    display: none;
+}
+
+.step1_image_tablet {
+    display: none;
+}
+
+.step1_image_desktop {
+    display: none;
+}
+
+.step2_image_tablet {
+    display: none;
+}
+
+.step2_image_desktop {
+    display: none;
+}
+
+.step3_image_tablet {
+    display: none;
+}
+
+.step3_image_desktop {
+    display: none;
+}
+
+.icon {
+    font-size: 15px;
+    color: #101562;
+}
+.link{
+    color: #e2211c;
+}
+
+/* RESPONSIVENESS 
+
+@media screen and (min-width: 375px) {
+    /* start of phone styles 
+    .badgecontainer{
+        padding-top: 55%;
+    }
+    }
+
+@media screen and (min-width: 414px) {
+    /* 
+    
+    */
+
+
+
+@media screen and (min-height: 812px) {
+    @media screen and (min-width: 375px) {
+        .badgecontainer {
+            padding-top: 61%;
+        }
+    }
+}
+
+@media screen and (min-height: 823px) {
+    @media screen and (min-width: 411px) {
+        .badgecontainer {
+            padding-top: 50%;
+        }
+    }
+}
+
+@media screen and (min-height: 1024px) {
+    @media screen and (min-width: 768px) {
+        .badgecontainer {
+            padding-top: 10%;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    header{
+        display: none;
+    }
+    .section-steps {
+        background-image: url(../images/bg2_desktop.jpg);
+        background-size: cover;
+        background-position: center;
+        width: auto;
+        background-clip: content-box;
+        height: auto;
+    }
+    
+    .section-home {
+        background-image: url(../images/Desktop_BG.jpg);
+        background-size: cover;
+        
+       
+    }
+
+    .containerhome {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .logodesktop {
+        width: 50%;
+        
+    }
+
+    .logocontainerdesktop {
+        text-align: left;
+        width: 50%;
+    }
+
+    .prizecontainer {
+        text-align: right;
+    }
+
+    .fourhundred {
+        width: 50%;
+
+    }
+    .badgecontainer{
+        padding-top: 32%;
+        text-align: right;
+        display: none;
+    }
+    
+    .badge{
+        width: 35%;
+        display: none;
+    }
+
+    .stepone {
+        display: none;
+    }
+    .steptwo{
+        display: none;
+    }
+
+
+    .steponedesktop{
+     width: 85%;
+     display: inline;
+    
+    }
+    
+    .steponecontainer {
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    .preparati {
+        width: 45%;
+    }
+
+    .preparaticontainer {
+        padding-top: 0%;
+        text-align: center;
+    }
+
+    .steptwodesktop {
+
+        padding-bottom: 40px;
+        display: inline;
+    }
+
+    .prizecontainer h2 {
+        color: #2b3072;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: right;
+        
+        width: 85%;
+    }
+    .prizecontainer{
+        padding-top: 6%; 
+    }
+
+    .scroll-downs {
+
+        top: 95%;
+        right: 55%;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        margin-right: 380px !important;
+        margin-top: -30px;
+        width: 34px;
+        height: 235px;
+    }
+}
+
+@media screen and (min-height: 800px) {
+    @media screen and (min-width: 1280px) {
+        .scroll-downs {
+
+            top: 95%;
+            right: 55%;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            margin-right: 380px !important;
+            margin-top: -30px;
+            width: 34px;
+            height: 325px;
+        }
+    }
+}
+
+
+
+
+@media screen and (min-height: 1024px) {
+    @media screen and (min-width: 1280px) {
+      
+        .prizecontainer{
+            padding-top: 0%; 
+        }
+
+        .section-steps {
+            background-image: url(../images/bg2_desktop.jpg);
+            background-size: cover;
+            background-position: center;
+            width: auto;
+            background-clip: content-box;
+            height: auto;
+        }
+        
+        .section-home {
+            background-image: url(../images/Desktop_BG.jpg);
+            background-size: cover;
+            
+           
+        }
+    
+        .containerhome {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    
+        .logodesktop {
+            width: 50%;
+            display: inline;
+            position: absolute;
+            
+        }
+
+    }
+}
